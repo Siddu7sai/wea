@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="weather.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <p>Weather App</p>
+        </div>
+        <div class="input">
+            <input type="text" id="location-input" placeholder="enter location..">
+            <input type="button" value="Get" id="btn">
+        </div>
+        <div class="info">
+            <img src="cloud1.png" alt="cloud">
+            <div class="temp"><span id="temp-value"></span><span id="unit">&#176</span id="c">c<span></span></div>
+            <div id="weather-desc">Cloudy</div>
+            <div id="location">Kakinada</div>
+            <div id="lon">lat=<span id="lat"></span>
+            </div>
+        </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>
